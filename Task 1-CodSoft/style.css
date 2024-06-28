@@ -1,0 +1,284 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+bg{
+    position: relative;
+}
+.bg img{
+    width: 100%;
+    height: 38rem;
+}
+.quote{
+    position: absolute;
+    top: 30%;
+    left: 11%
+}
+.quote #yb{
+    color: rgb(89, 88, 88);
+    font-size: 7rem;
+    font-family:'Courier New', Courier, monospace;
+}
+.quote #op{
+    
+    font-size: 5rem;
+    padding-left: 5rem;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(89, 88, 88);
+}
+.lines{
+    margin-top: 2rem;
+}
+.quote #step{
+    padding-left: 9rem;
+}
+.quote .lines{
+    font-style: italic;
+}
+header{
+    padding: 8px;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(80,47,76);
+
+}
+.navBookmarks{
+    margin: 16px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    font-size: 43px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+.categories{
+    margin-left: 3rem;
+}
+select{
+    border: 0.5px solid;
+    background-color: #e79898;
+    font-family: 'Courier New', Courier, monospace;
+}
+.symbols{
+    background-color: #e79898;
+    margin-top: 0;
+    padding: 1rem;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.products ul{
+    margin-right: 1rem;
+}
+.products ul li{
+    padding: 15px;
+}
+.sale1 .lines #ms{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 25px;
+    font-size: 20px;
+    color: #af3670;
+    position: relative;
+    right: 4rem;
+    font-size: 7rem;
+    margin-top: 3rem;
+    width: 40rem;
+    text-shadow: 4px 4px 0px #e79898; 
+}
+
+.sale1 .offoff{
+    border-radius: 50rem;
+     animation: 1s linear 0s infinite alternate none running slideup; 
+     box-shadow: 12px 12px 4px #7f6550;
+    background-color: #caac9c;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px none rgb(80,47,76);
+    font-style: italic;
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    right: 6rem;
+    font-size: 40px;
+}
+.sale1 .shopnow{
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    place-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px none white;
+    width: 10rem;
+    height: 4rem;
+    color: white;
+    background-color: #ff3186;
+    position: relative;
+    top: 14rem;
+    left: 12rem;
+}
+@keyframes slideup {
+    from{ transform: skew(5deg);}
+    to{ transform: skew(-5deg);}   
+}
+.saleinfo{
+    display: flex;
+    flex-direction: column;
+}
+.sss{
+    border: 1px solid black;
+    height:  10rem;
+    text-align: center;
+}
+.footerBox{
+    display: flex;
+    align-items: end;
+}
+footer{
+    border-top: 4px solid white;
+    width: 100vw;
+    /* text-align: center; */
+    height: 20rem;
+    background-color:rgb(80,47,76) ;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+     position: relative; 
+}
+footer p{
+    color: azure;
+    font-size: 20px;
+}
+.saleList{
+    width: 100vw;
+    display: flex;
+    background-color: #ffc2d1;
+    height: 52rem;
+}
+.sale1{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.sale1 img{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    min-height: 30rem;
+    width: 34rem;
+    height: 34rem;
+     border-radius: 30rem; 
+}
+.container3{
+    background-color: #ffc2d1;
+    width: 100vw;
+    height: 48rem;
+    margin-top: 4px;
+}
+.image_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    position: relative;
+    transition: .6s;
+}
+.palette{
+    box-shadow: 8px -7px 2px rgb(215, 69, 215);
+    border-radius: 2rem;
+    margin: 4rem 2rem;
+    height:27rem;
+    width: 18rem;
+}
+.foundation{
+    box-shadow: 8px -7px 2px rgb(215, 69, 215);
+    margin: 4rem 2rem;
+    border-radius: 2rem;
+    height:27rem;
+    width: 20rem;
+}
+.lipstick{
+    box-shadow: 8px -7px 2px rgb(215, 69, 215);
+    border-radius: 2rem;
+    margin: 4rem 2.5rem;
+    height:27rem;
+    width: 20rem;
+}
+.eye{
+    box-shadow: 8px -7px 2px rgb(215, 69, 215);
+    border-radius: 2rem;
+    margin: 4rem 2rem;
+    height:27rem;
+    width: 20rem;
+}
+.anchor{
+    padding: 5px;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.723);
+    position: absolute;
+    bottom: 5rem;
+    left:5rem;
+    font-size: 3rem;
+    visibility: hidden;
+    transition: .5s;
+}
+.pl a{
+    left: 3.5rem;
+    width: 15rem;
+
+}
+.ee a{
+    width: 18rem;
+    left: 3.0rem;
+    bottom: 4.9rem;;
+}
+.fd a{
+    width: 15rem;
+    left: 4.5rem;
+    bottom: 8.5rem;
+    color: rgb(66, 43, 43);
+}
+.lip a{
+    width: 16rem;
+    left: 5rem;
+}
+.image:hover{
+    opacity: .7;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+ .image:hover .anchor{
+    color: white;
+    bottom: 240px;
+    visibility:visible;
+}  
